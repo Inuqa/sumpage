@@ -1,13 +1,63 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 50px;
+  background: #1f2346;
+  min-height: 100vh;
+  color: #d2c1fa;
+}
+
+h1 {
+  margin-bottom: 1em;
+}
+
+.number-inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+input {
+  font-size: 2em;
+  border-radius: 0.3em;
+  border: 10px solid #4c299e;
+  width: 25%;
+  padding: 10px;
+  text-align: center;
+  background: #d1d2f3;
+  color: #2a1263;
+  margin: 0.3em;
+}
+
+button.button-delete {
+  padding: 1em;
+  font-size: 1em;
+  border-radius: 30em;
+  background: #5f30e6;
+  border: none;
+  color: #d2c1fa;
+  cursor: pointer;
+  line-height: 0.5em;
+  margin-left: 0.5em;
+}
+
+button.button-action {
+  padding: 0.5em;
+  font-size: 30px;
+  border-radius: 0.3em;
+  background: #5f30e6;
+  border: none;
+  color: #d2c1fa;
+  cursor: pointer;
+  margin: 10px;
+}
+
+h2 {
+  font-size: 150px;
 }
